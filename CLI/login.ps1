@@ -1,6 +1,5 @@
 Set-Location Env:
 
-
 # Script assumes you have the following environment variables set.
 # Don't forget to restart your terminal session after creating env variables.
 

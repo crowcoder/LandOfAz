@@ -31,7 +31,7 @@ az group list --query "[?location=='centralus'].tags | [?purpose=='qa'].owner | 
 Write-Host "JSON output to powershell object"
 Write-Host "----------------------------------------------------------"
 
-# If you don't filtering of jmespath, you may find it easier to convert json to an object
+# If you don't need filtering, you may find it easier to convert json to an object
 $group_as_json = az group show --name $random_grp_name_2  | ConvertFrom-Json
 $group_as_json # observe output
 $group_as_json.tags # observe output
