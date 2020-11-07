@@ -1,0 +1,1 @@
+Remove-AzResourceGroup -Name "rg-tekhed-bicep-demo" -Force
